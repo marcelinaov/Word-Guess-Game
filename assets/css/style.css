@@ -1,0 +1,41 @@
+body {
+     padding-top: 20px;
+    font-family: Prata, serif;
+    color: white;
+    background: url('../images/nba.jpg') no-repeat;
+    background-size: cover;
+}
+.container { 
+    text-align: center;
+    
+}
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    
+}
+#youLose, #youwin{ 
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#tryAgain, 
+#youLose, 
+#youWin { 
+    display: none;}
+
+
+.gameplay-column {
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    
+}
