@@ -130,7 +130,7 @@ function evaluateGuess(letter) {
       
       for(var i = 0; i < positions.length; i++) {
           guessingWord[positions[i]] = letter;
-          console.log(position[i]);
+          
       }
   }
 };
